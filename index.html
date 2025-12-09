@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>MH SERVICE</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MH SERVICE</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="app">
+    <header>
+      <h1 class="title">MH SERVICE</h1>
+      <div id="lockText" class="lockText">Unlocked</div>
+    </header>
 
-<h1>MH SERVICE</h1>
+    <main>
+      <div class="grid">
+        <div class="card">
+          <div class="cardLabel">ODD</div>
+          <div id="odd1" class="odd pending">PENDING</div>
+          <div id="time1" class="time pending">PENDING</div>
+        </div>
 
-<div class="grid">
-    <div class="card">
-        <div class="label">ODD</div>
-        <div class="odd" id="o1">--</div>
-        <div class="time" id="t1">--</div>
-    </div>
+        <div class="card">
+          <div class="cardLabel">ODD</div>
+          <div id="odd2" class="odd pending">PENDING</div>
+          <div id="time2" class="time pending">PENDING</div>
+        </div>
 
-    <div class="card">
-        <div class="label">ODD</div>
-        <div class="odd" id="o2">--</div>
-        <div class="time" id="t2">--</div>
-    </div>
+        <div class="card">
+          <div class="cardLabel">ODD</div>
+          <div id="odd3" class="odd pending">PENDING</div>
+          <div id="time3" class="time pending">PENDING</div>
+        </div>
 
-    <div class="card">
-        <div class="label">ODD</div>
-        <div class="odd" id="o3">--</div>
-        <div class="time" id="t3">--</div>
-    </div>
+        <div class="card">
+          <div class="cardLabel">ODD</div>
+          <div id="odd4" class="odd pending">PENDING</div>
+          <div id="time4" class="time pending">PENDING</div>
+        </div>
+      </div>
 
-    <div class="card">
-        <div class="label">ODD</div>
-        <div class="odd" id="o4">--</div>
-        <div class="time" id="t4">--</div>
-    </div>
-</div>
+      <div class="controls">
+        <button id="generateBtn" class="generate">GENERATE</button>
+      </div>
+    </main>
 
-<button id="generateBtn">GENERATE</button>
+    <footer>
+      <div class="version">v1.5 • MH SERVICE</div>
+    </footer>
+  </div>
 
-<footer>v1.5 • MH SERVICE</footer>
-
-<script src="logic.js"></script>
-
+  <script src="logic.js"></script>
 </body>
-</html>
+              </html>
