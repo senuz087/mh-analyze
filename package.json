@@ -1,11 +1,13 @@
 {
   "name": "mh-service",
   "version": "1.5.0",
-  "description": "MH SERVICE Super Analyzer 5x-20x",
+  "description": "MH SERVICE v1.5 - Super signal analyzer 5x-16x",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "author": "MH SERVICE",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
   }
