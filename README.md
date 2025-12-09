@@ -1,1 +1,1 @@
-# powerd by senuz 🫣
+# powered by senuz 🫣
